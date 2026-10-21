@@ -1,6 +1,26 @@
-# Instrument Companion Scores
+# Instrument Companion score catalog
 
-Three original generated CC0 practice exercises for a 16-key instrument. These are original exercises, not transcriptions or arrangements of named songs.
+The [catalog](https://huangjs7.github.io/instrument-companion-scores/catalog.json) combines **1,948 Mutopia PDF links** and **3 original practice exercises**. The app caches the directory, searches titles/composers/explicit aliases, downloads selected PDFs and reads them offline. Mutopia PDFs stay on the original host; they are not mirrored here.
+
+## Mutopia source and licensing
+
+The [Mutopia Project](https://www.mutopiaproject.org/) publishes freely downloadable music under per-score public-domain or Creative Commons terms. See its [source repository](https://github.com/MutopiaProject/MutopiaProject) and [license details](https://www.mutopiaproject.org/legal.html).
+
+Each imported entry preserves title, composer, instrument where supplied, typesetter and edition credit, original PDF URL, upstream revision, source page, license name and link. Its terms remain those of the upstream score. The CC0 dedication for our original exercises does **not** apply to Mutopia material. No scores were transposed, arranged or converted during import. The app exposes each score's source and licensing information.
+
+The computer-side importer reads the official website's `datafiles/musiccache.dat`, using the record layout in its open [website listing code](https://github.com/MutopiaProject/MutopiaWeb/blob/master/cgibin/make-table.cgi). This cache is not a documented public API. Malformed or duplicate records stop the import. The phone reads only our static JSON, without parsing third-party pages.
+
+The current snapshot contains 2,124 entries: 1,948 direct PDFs and 176 archive entries excluded from this PDF-only reader. [mutopia-import.json](mutopia-import.json) records the source hash and exclusions. Inclusion does not mean a piece is adapted to the 16-key instrument. Imported entries have no invented recommended notes.
+
+## Catalog contract
+
+`schemaVersion: 1` and `scores[]` remain. Required: `id`, `title`, `source`, `license`, `pdf`, `revision`. Stable IDs use lowercase letters, digits and hyphens. PDF paths resolve relative to the catalog and must use HTTPS.
+
+Optional: `composer`, `instrument`, `aliases` (explicit nonempty strings), `sourceUrl`, `licenseUrl`, `notes` (exactly 16 integer MIDI notes, 0..127). Omit `notes` for unadapted scores. Explicit invalid values, including null, are rejected. Original entries and old download snapshots remain readable. Applying a recommendation always requires a user choice.
+
+Search matches title, composer and explicit aliases. Aliases cover selected Chinese composer names and a few verified titles; they are not automatic translations of the whole library. At most 30 matches render per batch. The catalog is about 1.06 MB, below the app's 2 MiB limit.
+
+## Original exercises
 
 | Score | Meter | Quarter-note tempo |
 | --- | --- | --- |
@@ -8,12 +28,21 @@ Three original generated CC0 practice exercises for a 16-key instrument. These a
 | [Three-Beat Arc](scores/three-beat-arc.pdf) | 3/4 | 72 |
 | [Open Sky Arpeggios](scores/open-sky-arpeggios.pdf) | 4/4 | 76 |
 
-Every PDF has eight complete bars, numbered notation, octave dots, beat counts and a complete recommended key map. The map is C4 D4 E4 F4 G4 A4 B4 C5 D5 E5 F5 G5 A5 B5 C6 D6 (MIDI 60 62 64 65 67 69 71 72 74 76 77 79 81 83 84 86).
+Each has eight complete bars of numbered notation. [exercises.json](exercises.json) preserves the `[MIDI note, quarter-note beats]` events. Recommended map: `60 62 64 65 67 69 71 72 74 76 77 79 81 83 84 86` (C4..D6).
 
-The machine-readable [catalog](catalog.json) uses schemaVersion 1, relative PDF paths and revisioned entries. The exact musical pitches and quarter-note durations are preserved in [exercises.json](exercises.json).
+These original exercises were generated with AI assistance on 2026-10-21, specifically for this project, without copying any named composition or external engraving. No claim of human authorship of AI-generated material is made. To the extent applicable rights exist, the **three original exercise melodies, source data and generated layouts** are dedicated under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en). This does not cover third-party scores, software or standard fonts.
 
-## Source and licensing
+## Maintainer workflow
 
-Created for Instrument Companion on 2026-10-21 with AI assistance. The melodies and score layouts were generated specifically for this project; no named composition or external engraving was copied. The PDFs use standard PDF fonts.
+From the parent Android project, with Python 3:
 
-To the extent copyright or related rights apply, these original exercise melodies, source data, catalog metadata and generated score layouts are dedicated under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en). This dedication applies only to the files created here and makes no claim over third-party software or standard fonts. No claim of human authorship of AI-generated material is made.
+```text
+python -m unittest discover -s tools -p test_import_mutopia.py
+python tools/import_mutopia.py
+python content/validate_content.py
+powershell -NoProfile -File tools/publish_catalog.ps1
+```
+
+The importer uses only the Python standard library. `--cache build/mutopia/musiccache.dat` reuses an explicit saved snapshot. The content validator requires pypdf. Rebuilding originals with `content/build_scores.py` requires ReportLab and preserves imported entries. Publication uploads only catalog material and three original PDFs; APP/FPGA sources are not published.
+
+The local SHA-256 manifest covers catalog.json and three original PDFs. The app checks downloaded documents with Android PdfRenderer; it does not claim upstream PDF hashes or automatic keymap generation.

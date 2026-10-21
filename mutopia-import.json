@@ -1,0 +1,889 @@
+{
+  "source": "https://www.mutopiaproject.org/datafiles/musiccache.dat",
+  "sourceSha256": "2e72d33afb0f9504161a579294a6e50dac9b1cce0d33e3fefa9e5d9786fe1dca",
+  "formatSource": "https://github.com/MutopiaProject/MutopiaWeb/blob/master/cgibin/make-table.cgi",
+  "imported": 1948,
+  "excluded": [
+    {
+      "id": "334",
+      "reason": "Not a direct PDF",
+      "file": "gimo-359-a4-pdfs.zip"
+    },
+    {
+      "id": "1695",
+      "reason": "Not a direct PDF",
+      "file": "Cantata_16_no_5-a4-pdfs.zip"
+    },
+    {
+      "id": "2145",
+      "reason": "Not a direct PDF",
+      "file": "bwv0036b-a4-pdfs.zip"
+    },
+    {
+      "id": "1462",
+      "reason": "Not a direct PDF",
+      "file": "BachBMinorMass-a4-pdfs.zip"
+    },
+    {
+      "id": "1775",
+      "reason": "Not a direct PDF",
+      "file": "Passacaglia-a4-pdfs.zip"
+    },
+    {
+      "id": "100",
+      "reason": "Not a direct PDF",
+      "file": "french-suite-3-a4-pdfs.zip"
+    },
+    {
+      "id": "99",
+      "reason": "Not a direct PDF",
+      "file": "french-suite-5-a4-pdfs.zip"
+    },
+    {
+      "id": "1935",
+      "reason": "Not a direct PDF",
+      "file": "french-suite-6-a4-pdfs.zip"
+    },
+    {
+      "id": "474",
+      "reason": "Not a direct PDF",
+      "file": "1-Partita-a4-pdfs.zip"
+    },
+    {
+      "id": "602",
+      "reason": "Not a direct PDF",
+      "file": "2-Partita-a4-pdfs.zip"
+    },
+    {
+      "id": "1080",
+      "reason": "Not a direct PDF",
+      "file": "BWV-827-a4-pdfs.zip"
+    },
+    {
+      "id": "421",
+      "reason": "Not a direct PDF",
+      "file": "5-Partita-a4-pdfs.zip"
+    },
+    {
+      "id": "1497",
+      "reason": "Not a direct PDF",
+      "file": "BWV-830-a4-pdfs.zip"
+    },
+    {
+      "id": "180",
+      "reason": "Not a direct PDF",
+      "file": "partita-1-a4-pdfs.zip"
+    },
+    {
+      "id": "517",
+      "reason": "Not a direct PDF",
+      "file": "bwv1007-a4-pdfs.zip"
+    },
+    {
+      "id": "645",
+      "reason": "Not a direct PDF",
+      "file": "bwv1030-a4-pdfs.zip"
+    },
+    {
+      "id": "29",
+      "reason": "Not a direct PDF",
+      "file": "concerto-in-e-major-a4-pdfs.zip"
+    },
+    {
+      "id": "3",
+      "reason": "Not a direct PDF",
+      "file": "concerto-in-d-minor-a4-pdfs.zip"
+    },
+    {
+      "id": "1136",
+      "reason": "Not a direct PDF",
+      "file": "Brandenburg1-1-a4-pdfs.zip"
+    },
+    {
+      "id": "1577",
+      "reason": "Not a direct PDF",
+      "file": "Brandenburg1-2-a4-pdfs.zip"
+    },
+    {
+      "id": "1680",
+      "reason": "Not a direct PDF",
+      "file": "brandenburg_2-a4-pdfs.zip"
+    },
+    {
+      "id": "548",
+      "reason": "Not a direct PDF",
+      "file": "brand5-3-a4-pdfs.zip"
+    },
+    {
+      "id": "2050",
+      "reason": "Not a direct PDF",
+      "file": "bwv1055-a4-pdfs.zip"
+    },
+    {
+      "id": "2116",
+      "reason": "Not a direct PDF",
+      "file": "BWV1056R-Schreck-a4-pdfs.zip"
+    },
+    {
+      "id": "242",
+      "reason": "Not a direct PDF",
+      "file": "bach-air-a4-pdfs.zip"
+    },
+    {
+      "id": "1620",
+      "reason": "Not a direct PDF",
+      "file": "14-canons-bwv-1087-a4-pdfs.zip"
+    },
+    {
+      "id": "1619",
+      "reason": "Not a direct PDF",
+      "file": "anna-magdalena-114-115-116-a4-pdfs.zip"
+    },
+    {
+      "id": "321",
+      "reason": "Not a direct PDF",
+      "file": "gimo-18-a4-pdfs.zip"
+    },
+    {
+      "id": "919",
+      "reason": "Not a direct PDF",
+      "file": "BeethovenHornSonata-a4-pdfs.zip"
+    },
+    {
+      "id": "1655",
+      "reason": "Not a direct PDF",
+      "file": "BeethovenSymphony3-a4-pdfs.zip"
+    },
+    {
+      "id": "57",
+      "reason": "Not a direct PDF",
+      "file": "Coriolan-a4-pdfs.zip"
+    },
+    {
+      "id": "377",
+      "reason": "Not a direct PDF",
+      "file": "fidelio-a4-pdfs.zip"
+    },
+    {
+      "id": "1722",
+      "reason": "Not a direct PDF",
+      "file": "beethoven_sextet-a4-pdfs.zip"
+    },
+    {
+      "id": "594",
+      "reason": "Not a direct PDF",
+      "file": "quartet_o131-a4-pdfs.zip"
+    },
+    {
+      "id": "1782",
+      "reason": "Not a direct PDF",
+      "file": "Drei_Equali-a4-pdfs.zip"
+    },
+    {
+      "id": "1855",
+      "reason": "Not a direct PDF",
+      "file": "Blake_op2_no_1-a4-pdfs.zip"
+    },
+    {
+      "id": "1856",
+      "reason": "Not a direct PDF",
+      "file": "Blake_op2_no_2-a4-pdfs.zip"
+    },
+    {
+      "id": "1857",
+      "reason": "Not a direct PDF",
+      "file": "Blake_op2_no_3-a4-pdfs.zip"
+    },
+    {
+      "id": "1858",
+      "reason": "Not a direct PDF",
+      "file": "Blake_op2_no_4-a4-pdfs.zip"
+    },
+    {
+      "id": "1859",
+      "reason": "Not a direct PDF",
+      "file": "Blake_op2_no_5-a4-pdfs.zip"
+    },
+    {
+      "id": "1860",
+      "reason": "Not a direct PDF",
+      "file": "Blake_op2_no_6-a4-pdfs.zip"
+    },
+    {
+      "id": "2240",
+      "reason": "Not a direct PDF",
+      "file": "Premier_Balet_de_Village-a4-pdfs.zip"
+    },
+    {
+      "id": "833",
+      "reason": "Not a direct PDF",
+      "file": "BrahmsHornTrio-a4-pdfs.zip"
+    },
+    {
+      "id": "1037",
+      "reason": "Not a direct PDF",
+      "file": "Wiegenlied-a4-pdfs.zip"
+    },
+    {
+      "id": "1729",
+      "reason": "Not a direct PDF",
+      "file": "MembraJesuNostri-a4-pdfs.zip"
+    },
+    {
+      "id": "1713",
+      "reason": "Not a direct PDF",
+      "file": "BuxWV4_AllesWasIhrTut-a4-pdfs.zip"
+    },
+    {
+      "id": "1714",
+      "reason": "Not a direct PDF",
+      "file": "BuxWV69-a4-pdfs.zip"
+    },
+    {
+      "id": "322",
+      "reason": "Not a direct PDF",
+      "file": "gimo-58-a4-pdfs.zip"
+    },
+    {
+      "id": "323",
+      "reason": "Not a direct PDF",
+      "file": "gimo-60-a4-pdfs.zip"
+    },
+    {
+      "id": "1651",
+      "reason": "Not a direct PDF",
+      "file": "DavidEtJonathas-a4-pdfs.zip"
+    },
+    {
+      "id": "757",
+      "reason": "Not a direct PDF",
+      "file": "PS-chopin-25-02-a4-pdfs.zip"
+    },
+    {
+      "id": "324",
+      "reason": "Not a direct PDF",
+      "file": "gimo-76-a4-pdfs.zip"
+    },
+    {
+      "id": "298",
+      "reason": "Not a direct PDF",
+      "file": "nr8-quartet-a4-pdfs.zip"
+    },
+    {
+      "id": "943",
+      "reason": "Not a direct PDF",
+      "file": "Envoi_orgue-a4-pdfs.zip"
+    },
+    {
+      "id": "342",
+      "reason": "Not a direct PDF",
+      "file": "quart18-a4-pdfs.zip"
+    },
+    {
+      "id": "902",
+      "reason": "Not a direct PDF",
+      "file": "DukasVillanelle-a4-pdfs.zip"
+    },
+    {
+      "id": "1948",
+      "reason": "Not a direct PDF",
+      "file": "dvorak-o4-a4-pdfs.zip"
+    },
+    {
+      "id": "1901",
+      "reason": "Not a direct PDF",
+      "file": "DvorakSYMPH7-a4-pdfs.zip"
+    },
+    {
+      "id": "1793",
+      "reason": "Not a direct PDF",
+      "file": "Sym9-a4-pdfs.zip"
+    },
+    {
+      "id": "2211",
+      "reason": "Not a direct PDF",
+      "file": "dvorak-o96-a4-pdfs.zip"
+    },
+    {
+      "id": "1879",
+      "reason": "Not a direct PDF",
+      "file": "there-is-sweet-music-a4-pdfs.zip"
+    },
+    {
+      "id": "1694",
+      "reason": "Not a direct PDF",
+      "file": "franck_ave_maria-a4-pdfs.zip"
+    },
+    {
+      "id": "325",
+      "reason": "Not a direct PDF",
+      "file": "gimo-88-a4-pdfs.zip"
+    },
+    {
+      "id": "1200",
+      "reason": "Not a direct PDF",
+      "file": "rialto_ripples-a4-pdfs.zip"
+    },
+    {
+      "id": "329",
+      "reason": "Not a direct PDF",
+      "file": "gimo-145-a4-pdfs.zip"
+    },
+    {
+      "id": "331",
+      "reason": "Not a direct PDF",
+      "file": "gimo-149-a4-pdfs.zip"
+    },
+    {
+      "id": "190",
+      "reason": "Not a direct PDF",
+      "file": "gimo-150-a4-pdfs.zip"
+    },
+    {
+      "id": "255",
+      "reason": "Not a direct PDF",
+      "file": "giuliani_op127_1-a4-pdfs.zip"
+    },
+    {
+      "id": "332",
+      "reason": "Not a direct PDF",
+      "file": "gimo-153-a4-pdfs.zip"
+    },
+    {
+      "id": "1574",
+      "reason": "Not a direct PDF",
+      "file": "GlazunovReveries-a4-pdfs.zip"
+    },
+    {
+      "id": "1320",
+      "reason": "Not a direct PDF",
+      "file": "Gossec-Symphonie-mib-a4-pdfs.zip"
+    },
+    {
+      "id": "1266",
+      "reason": "Not a direct PDF",
+      "file": "Gossec-Symphonie-sib-a4-pdfs.zip"
+    },
+    {
+      "id": "2167",
+      "reason": "Not a direct PDF",
+      "file": "AveMaria-PianoViolin-a4-pdfs.zip"
+    },
+    {
+      "id": "247",
+      "reason": "Not a direct PDF",
+      "file": "02-lamortdase-strings-a4-pdfs.zip"
+    },
+    {
+      "id": "281",
+      "reason": "Not a direct PDF",
+      "file": "03-anitrasdance-a4-pdfs.zip"
+    },
+    {
+      "id": "2157",
+      "reason": "Not a direct PDF",
+      "file": "TenthRegimentMarch-a4-pdfs.zip"
+    },
+    {
+      "id": "1732",
+      "reason": "Not a direct PDF",
+      "file": "Messiah-a4-pdfs.zip"
+    },
+    {
+      "id": "1699",
+      "reason": "Not a direct PDF",
+      "file": "NineGermanArias-a4-pdfs.zip"
+    },
+    {
+      "id": "652",
+      "reason": "Not a direct PDF",
+      "file": "hwv361-a4-pdfs.zip"
+    },
+    {
+      "id": "654",
+      "reason": "Not a direct PDF",
+      "file": "hwv370-a4-pdfs.zip"
+    },
+    {
+      "id": "1698",
+      "reason": "Not a direct PDF",
+      "file": "GloriaInExcelsisDeo-a4-pdfs.zip"
+    },
+    {
+      "id": "459",
+      "reason": "Not a direct PDF",
+      "file": "hallelujah-a4-pdfs.zip"
+    },
+    {
+      "id": "2213",
+      "reason": "Not a direct PDF",
+      "file": "op1_1-a4-pdfs.zip"
+    },
+    {
+      "id": "2216",
+      "reason": "Not a direct PDF",
+      "file": "op1_2-a4-pdfs.zip"
+    },
+    {
+      "id": "2217",
+      "reason": "Not a direct PDF",
+      "file": "op1_3-a4-pdfs.zip"
+    },
+    {
+      "id": "2218",
+      "reason": "Not a direct PDF",
+      "file": "op1_4-a4-pdfs.zip"
+    },
+    {
+      "id": "383",
+      "reason": "Not a direct PDF",
+      "file": "op76-n1-a4-pdfs.zip"
+    },
+    {
+      "id": "384",
+      "reason": "Not a direct PDF",
+      "file": "op76-n2-a4-pdfs.zip"
+    },
+    {
+      "id": "385",
+      "reason": "Not a direct PDF",
+      "file": "op76-n3-a4-pdfs.zip"
+    },
+    {
+      "id": "386",
+      "reason": "Not a direct PDF",
+      "file": "op76-n4-a4-pdfs.zip"
+    },
+    {
+      "id": "387",
+      "reason": "Not a direct PDF",
+      "file": "op76-n5-a4-pdfs.zip"
+    },
+    {
+      "id": "388",
+      "reason": "Not a direct PDF",
+      "file": "op76-n6-a4-pdfs.zip"
+    },
+    {
+      "id": "1734",
+      "reason": "Not a direct PDF",
+      "file": "27-tmeiskin-a4-pdfs.zip"
+    },
+    {
+      "id": "2089",
+      "reason": "Not a direct PDF",
+      "file": "Romance-et-Rondo-a4-pdfs.zip"
+    },
+    {
+      "id": "1949",
+      "reason": "Not a direct PDF",
+      "file": "romanze-a4-pdfs.zip"
+    },
+    {
+      "id": "809",
+      "reason": "Not a direct PDF",
+      "file": "lwv56-a4-pdfs.zip"
+    },
+    {
+      "id": "1652",
+      "reason": "Not a direct PDF",
+      "file": "LWV61Phaeton-a4-pdfs.zip"
+    },
+    {
+      "id": "935",
+      "reason": "Not a direct PDF",
+      "file": "lwv71-a4-pdfs.zip"
+    },
+    {
+      "id": "1644",
+      "reason": "Not a direct PDF",
+      "file": "Symphonie-1-a4-pdfs.zip"
+    },
+    {
+      "id": "612",
+      "reason": "Not a direct PDF",
+      "file": "MendelssohnOctet-a4-pdfs.zip"
+    },
+    {
+      "id": "1947",
+      "reason": "Not a direct PDF",
+      "file": "wie_der_hirsch_schreit-a4-pdfs.zip"
+    },
+    {
+      "id": "80",
+      "reason": "Not a direct PDF",
+      "file": "Sommernachtstraum-a4-pdfs.zip"
+    },
+    {
+      "id": "346",
+      "reason": "Not a direct PDF",
+      "file": "k130-a4-pdfs.zip"
+    },
+    {
+      "id": "2135",
+      "reason": "Not a direct PDF",
+      "file": "DivertimentoK137-a4-pdfs.zip"
+    },
+    {
+      "id": "711",
+      "reason": "Not a direct PDF",
+      "file": "k158-a4-pdfs.zip"
+    },
+    {
+      "id": "686",
+      "reason": "Not a direct PDF",
+      "file": "kv191-bassoon-concerto-a4-pdfs.zip"
+    },
+    {
+      "id": "261",
+      "reason": "Not a direct PDF",
+      "file": "divertimento-a4-pdfs.zip"
+    },
+    {
+      "id": "1952",
+      "reason": "Not a direct PDF",
+      "file": "kv250-a4-pdfs.zip"
+    },
+    {
+      "id": "1026",
+      "reason": "Not a direct PDF",
+      "file": "Mozart-Concerto-a4-pdfs.zip"
+    },
+    {
+      "id": "344",
+      "reason": "Not a direct PDF",
+      "file": "k315-a4-pdfs.zip"
+    },
+    {
+      "id": "571",
+      "reason": "Not a direct PDF",
+      "file": "k379-a4-pdfs.zip"
+    },
+    {
+      "id": "245",
+      "reason": "Not a direct PDF",
+      "file": "k387-a4-pdfs.zip"
+    },
+    {
+      "id": "423",
+      "reason": "Not a direct PDF",
+      "file": "k401-a4-pdfs.zip"
+    },
+    {
+      "id": "1369",
+      "reason": "Not a direct PDF",
+      "file": "MozartHornQuintet-a4-pdfs.zip"
+    },
+    {
+      "id": "918",
+      "reason": "Not a direct PDF",
+      "file": "MozartHornConcerto1-a4-pdfs.zip"
+    },
+    {
+      "id": "901",
+      "reason": "Not a direct PDF",
+      "file": "MozartHornConcerto2-a4-pdfs.zip"
+    },
+    {
+      "id": "273",
+      "reason": "Not a direct PDF",
+      "file": "k421-a4-pdfs.zip"
+    },
+    {
+      "id": "274",
+      "reason": "Not a direct PDF",
+      "file": "k428-a4-pdfs.zip"
+    },
+    {
+      "id": "1735",
+      "reason": "Not a direct PDF",
+      "file": "MozartHornConcerto3-a4-pdfs.zip"
+    },
+    {
+      "id": "25",
+      "reason": "Not a direct PDF",
+      "file": "mozart-hrn-3-a4-pdfs.zip"
+    },
+    {
+      "id": "277",
+      "reason": "Not a direct PDF",
+      "file": "k458-a4-pdfs.zip"
+    },
+    {
+      "id": "278",
+      "reason": "Not a direct PDF",
+      "file": "k464-a4-pdfs.zip"
+    },
+    {
+      "id": "279",
+      "reason": "Not a direct PDF",
+      "file": "k465-a4-pdfs.zip"
+    },
+    {
+      "id": "448",
+      "reason": "Not a direct PDF",
+      "file": "k477-a4-pdfs.zip"
+    },
+    {
+      "id": "499",
+      "reason": "Not a direct PDF",
+      "file": "k478-a4-pdfs.zip"
+    },
+    {
+      "id": "2229",
+      "reason": "Not a direct PDF",
+      "file": "Mozart-KV488-a4-pdfs.zip"
+    },
+    {
+      "id": "1736",
+      "reason": "Not a direct PDF",
+      "file": "MozartHornConcerto4-a4-pdfs.zip"
+    },
+    {
+      "id": "250",
+      "reason": "Not a direct PDF",
+      "file": "k498-a4-pdfs.zip"
+    },
+    {
+      "id": "2230",
+      "reason": "Not a direct PDF",
+      "file": "MozartWA-KV525-a4-pdfs.zip"
+    },
+    {
+      "id": "900",
+      "reason": "Not a direct PDF",
+      "file": "eine-kleine-nachtmusik-mvt1-a4-pdfs.zip"
+    },
+    {
+      "id": "189",
+      "reason": "Not a direct PDF",
+      "file": "canzonetta-a4-pdfs.zip"
+    },
+    {
+      "id": "852",
+      "reason": "Not a direct PDF",
+      "file": "k546-a4-pdfs.zip"
+    },
+    {
+      "id": "337",
+      "reason": "Not a direct PDF",
+      "file": "k581-a4-pdfs.zip"
+    },
+    {
+      "id": "248",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-00-overture-a4-pdfs.zip"
+    },
+    {
+      "id": "249",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-04-aria-a4-pdfs.zip"
+    },
+    {
+      "id": "259",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-07-duet-a4-pdfs.zip"
+    },
+    {
+      "id": "260",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-09-march-a4-pdfs.zip"
+    },
+    {
+      "id": "251",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-13-aria-a4-pdfs.zip"
+    },
+    {
+      "id": "266",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-14-aria-a4-pdfs.zip"
+    },
+    {
+      "id": "253",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-15-aria-a4-pdfs.zip"
+    },
+    {
+      "id": "252",
+      "reason": "Not a direct PDF",
+      "file": "magicflute-17-aria-a4-pdfs.zip"
+    },
+    {
+      "id": "1635",
+      "reason": "Not a direct PDF",
+      "file": "MozartK622-a4-pdfs.zip"
+    },
+    {
+      "id": "475",
+      "reason": "Not a direct PDF",
+      "file": "pictures-at-an-exhibition-a4-pdfs.zip"
+    },
+    {
+      "id": "1056",
+      "reason": "Not a direct PDF",
+      "file": "NielsenCantoSerioso-a4-pdfs.zip"
+    },
+    {
+      "id": "2047",
+      "reason": "Not a direct PDF",
+      "file": "Canon_per_3_Violini_e_Basso-a4-pdfs.zip"
+    },
+    {
+      "id": "2212",
+      "reason": "Not a direct PDF",
+      "file": "PachelbelGigue-a4-pdfs.zip"
+    },
+    {
+      "id": "1950",
+      "reason": "Not a direct PDF",
+      "file": "Sonata_10_in_A-a4-pdfs.zip"
+    },
+    {
+      "id": "1781",
+      "reason": "Not a direct PDF",
+      "file": "rieding_opus_35-a4-pdfs.zip"
+    },
+    {
+      "id": "1880",
+      "reason": "Not a direct PDF",
+      "file": "duet_1_BI_9-a4-pdfs.zip"
+    },
+    {
+      "id": "1881",
+      "reason": "Not a direct PDF",
+      "file": "duet_2_BI_19-a4-pdfs.zip"
+    },
+    {
+      "id": "1861",
+      "reason": "Not a direct PDF",
+      "file": "tor_1-a4-pdfs.zip"
+    },
+    {
+      "id": "1862",
+      "reason": "Not a direct PDF",
+      "file": "tor_2-a4-pdfs.zip"
+    },
+    {
+      "id": "1634",
+      "reason": "Not a direct PDF",
+      "file": "Eduardo_e_Cristina-a4-pdfs.zip"
+    },
+    {
+      "id": "1055",
+      "reason": "Not a direct PDF",
+      "file": "SaintSaensRomance-a4-pdfs.zip"
+    },
+    {
+      "id": "1715",
+      "reason": "Not a direct PDF",
+      "file": "Sonataduodecima-a4-pdfs.zip"
+    },
+    {
+      "id": "28",
+      "reason": "Not a direct PDF",
+      "file": "AnSylvia-a4-pdfs.zip"
+    },
+    {
+      "id": "1272",
+      "reason": "Not a direct PDF",
+      "file": "SchubertAufDemStrom-a4-pdfs.zip"
+    },
+    {
+      "id": "1643",
+      "reason": "Not a direct PDF",
+      "file": "JPSFotF-a4-pdfs.zip"
+    },
+    {
+      "id": "1575",
+      "reason": "Not a direct PDF",
+      "file": "FranzStraussNocturno-a4-pdfs.zip"
+    },
+    {
+      "id": "949",
+      "reason": "Not a direct PDF",
+      "file": "tallis-a4-pdfs.zip"
+    },
+    {
+      "id": "473",
+      "reason": "Not a direct PDF",
+      "file": "Alhambra-a4-pdfs.zip"
+    },
+    {
+      "id": "466",
+      "reason": "Not a direct PDF",
+      "file": "tchai_op35-a4-pdfs.zip"
+    },
+    {
+      "id": "2118",
+      "reason": "Not a direct PDF",
+      "file": "Concerto_a_4_D-a4-pdfs.zip"
+    },
+    {
+      "id": "2117",
+      "reason": "Not a direct PDF",
+      "file": "Concerto_a_4_G-a4-pdfs.zip"
+    },
+    {
+      "id": "2115",
+      "reason": "Not a direct PDF",
+      "file": "Sonata_a_4_C-a4-pdfs.zip"
+    },
+    {
+      "id": "2231",
+      "reason": "Not a direct PDF",
+      "file": "concerto-8-a4-pdfs.zip"
+    },
+    {
+      "id": "1618",
+      "reason": "Not a direct PDF",
+      "file": "TelemannGP-canons-sonate1-a4-pdfs.zip"
+    },
+    {
+      "id": "1623",
+      "reason": "Not a direct PDF",
+      "file": "TelemannGP-canons-sonate2-a4-pdfs.zip"
+    },
+    {
+      "id": "333",
+      "reason": "Not a direct PDF",
+      "file": "gimo-297-a4-pdfs.zip"
+    },
+    {
+      "id": "244",
+      "reason": "Not a direct PDF",
+      "file": "o_magnum_mysterium-a4-pdfs.zip"
+    },
+    {
+      "id": "2048",
+      "reason": "Not a direct PDF",
+      "file": "vivaldi-o3-a4-pdfs.zip"
+    },
+    {
+      "id": "350",
+      "reason": "Not a direct PDF",
+      "file": "autumn-a4-pdfs.zip"
+    },
+    {
+      "id": "301",
+      "reason": "Not a direct PDF",
+      "file": "spring-a4-pdfs.zip"
+    },
+    {
+      "id": "336",
+      "reason": "Not a direct PDF",
+      "file": "summer-a4-pdfs.zip"
+    },
+    {
+      "id": "351",
+      "reason": "Not a direct PDF",
+      "file": "winter-a4-pdfs.zip"
+    },
+    {
+      "id": "310",
+      "reason": "Not a direct PDF",
+      "file": "rv540-a4-pdfs.zip"
+    }
+  ],
+  "note": "Metadata only; original PDF URLs. No imported score has a recommended key map."
+}
