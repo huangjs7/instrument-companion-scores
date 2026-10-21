@@ -1,6 +1,17 @@
 # Instrument Companion score catalog
 
-The [catalog](https://huangjs7.github.io/instrument-companion-scores/catalog.json) combines **1,948 Mutopia PDF links** and **3 original practice exercises**. The app caches the directory, searches titles/composers/explicit aliases, downloads selected PDFs and reads them offline. Mutopia PDFs stay on the original host; they are not mirrored here.
+The [catalog](https://huangjs7.github.io/instrument-companion-scores/catalog.json) combines **4 curated modern piano scores**, **1,948 Mutopia PDF links** and **3 original practice exercises** (1,955 entries). The app caches the directory, searches titles/composers/explicit aliases, downloads selected PDFs and reads them offline. External PDFs stay on their original hosts; they are not mirrored here.
+
+## Familiar modern pieces (added 2026-10-22)
+
+| Search title | Composer | Source level | PDF pages |
+| --- | --- | --- | --- |
+| Titanic / 泰坦尼克号 / 我心永恒 | James Horner | Easy | 2 |
+| Pirates of the Caribbean / 加勒比海盗 | Klaus Badelt | Easy–Intermediate | 2 |
+| River Flows in You / 你的心河 | Yiruma | Easier piano arrangement | 3 |
+| Comptine d'un autre été / 天使爱美丽 | Yann Tiersen | Easy–Intermediate | 2 |
+
+These are the original piano arrangements by **Hetty Sponselee**, publicly offered on [Piano Tunes' Free Sheet Music page](https://www.pianotunes.eu/classic-pop.php). The directory records that public download availability, not an open licence or permission to republish. All composition/arrangement rights remain with their respective holders. Only metadata and original-host links are published here; no external score is copied, altered or relicensed. None has an invented recommended key map. They are simplified piano scores, not a claim of one-finger or 16-key playability. Search `现代` for these four entries.
 
 ## Mutopia source and licensing
 
