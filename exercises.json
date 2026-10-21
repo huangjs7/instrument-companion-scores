@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "recommendedNotes": [60,62,64,65,67,69,71,72,74,76,77,79,81,83,84,86],
+  "exercises": [
+    {
+      "id": "c-major-steps",
+      "title": "C Major Steps",
+      "subtitle": "Original exercise 01 / even pulse and adjacent notes",
+      "meter": 4,
+      "tempo": 80,
+      "instruction": "Keep an even pulse; connect each step without rushing.",
+      "bars": [[[60,1],[62,1],[64,1],[65,1]],[[67,1],[69,1],[71,1],[72,1]],[[74,1],[72,1],[71,1],[69,1]],[[67,2],[64,2]],[[65,1],[67,1],[69,1],[67,1]],[[64,1],[65,1],[67,2]],[[62,1],[64,1],[62,1],[71,1]],[[72,4]]]
+    },
+    {
+      "id": "three-beat-arc",
+      "title": "Three-Beat Arc",
+      "subtitle": "Original exercise 02 / phrasing in three",
+      "meter": 3,
+      "tempo": 72,
+      "instruction": "Feel one strong beat, then two lighter beats in every bar.",
+      "bars": [[[60,1],[64,1],[67,1]],[[72,2],[71,1]],[[69,1],[67,1],[65,1]],[[64,2],[62,1]],[[65,1],[69,1],[72,1]],[[74,1],[72,1],[69,1]],[[67,1],[71,1],[74,1]],[[72,3]]]
+    },
+    {
+      "id": "open-sky-arpeggios",
+      "title": "Open Sky Arpeggios",
+      "subtitle": "Original exercise 03 / wider intervals and upper register",
+      "meter": 4,
+      "tempo": 76,
+      "instruction": "Prepare each leap calmly; let the final high C ring for four beats.",
+      "bars": [[[60,1],[64,1],[67,1],[72,1]],[[76,1],[79,1],[76,1],[72,1]],[[65,1],[69,1],[72,1],[77,1]],[[81,2],[77,2]],[[67,1],[71,1],[74,1],[79,1]],[[83,1],[86,1],[83,1],[79,1]],[[76,1],[79,1],[81,1],[83,1]],[[84,4]]]
+    }
+  ]
+}

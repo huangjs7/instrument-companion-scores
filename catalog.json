@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "scores": [
+    {
+      "id": "c-major-steps",
+      "title": "C Major Steps",
+      "source": "Original exercise generated for Instrument Companion, 2026-10-21",
+      "license": "CC0-1.0",
+      "pdf": "scores/c-major-steps.pdf",
+      "revision": "1",
+      "notes": [
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        71,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81,
+        83,
+        84,
+        86
+      ]
+    },
+    {
+      "id": "three-beat-arc",
+      "title": "Three-Beat Arc",
+      "source": "Original exercise generated for Instrument Companion, 2026-10-21",
+      "license": "CC0-1.0",
+      "pdf": "scores/three-beat-arc.pdf",
+      "revision": "1",
+      "notes": [
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        71,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81,
+        83,
+        84,
+        86
+      ]
+    },
+    {
+      "id": "open-sky-arpeggios",
+      "title": "Open Sky Arpeggios",
+      "source": "Original exercise generated for Instrument Companion, 2026-10-21",
+      "license": "CC0-1.0",
+      "pdf": "scores/open-sky-arpeggios.pdf",
+      "revision": "1",
+      "notes": [
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        71,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81,
+        83,
+        84,
+        86
+      ]
+    }
+  ]
+}
